@@ -2,9 +2,8 @@
 //  SecondViewController.swift
 //  AlarmClock2
 //
-//  Created by 200231116 on 2015-04-02.
-//  Copyright (c) 2015 200231116. All rights reserved.
-//
+//  Created by Nick Kuznecov, Jacob Garland on 2015-04-02.
+// Purpose: THis is the secondary page of the application where the countdown timer is located and run
 
 import UIKit
 
