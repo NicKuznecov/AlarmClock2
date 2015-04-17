@@ -15,7 +15,6 @@
 		DBBC32281ACDFF5C00086CA1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBBC32261ACDFF5C00086CA1 /* LaunchScreen.xib */; };
 		DBBC32341ACDFF5C00086CA1 /* AlarmClock2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBC32331ACDFF5C00086CA1 /* AlarmClock2Tests.swift */; };
 		DBBC323E1ACE028900086CA1 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBC323D1ACE028900086CA1 /* ThirdViewController.swift */; };
-		DBC064F21AD745EA00B55A58 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC064F11AD745EA00B55A58 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +40,6 @@
 		DBBC32321ACDFF5C00086CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBBC32331ACDFF5C00086CA1 /* AlarmClock2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmClock2Tests.swift; sourceTree = "<group>"; };
 		DBBC323D1ACE028900086CA1 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
-		DBC064F11AD745EA00B55A58 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +47,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBC064F21AD745EA00B55A58 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +63,6 @@
 		DBBC320D1ACDFF5C00086CA1 = {
 			isa = PBXGroup;
 			children = (
-				DBC064F11AD745EA00B55A58 /* libsqlite3.dylib */,
 				DBBC32181ACDFF5C00086CA1 /* AlarmClock2 */,
 				DBBC32301ACDFF5C00086CA1 /* AlarmClock2Tests */,
 				DBBC32171ACDFF5C00086CA1 /* Products */,
@@ -351,14 +347,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AlarmClock2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "AlarmClock2/AlarmClock2-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -366,13 +358,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AlarmClock2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "AlarmClock2/AlarmClock2-Bridging-Header.h";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -429,7 +418,6 @@
 				DBBC32391ACDFF5C00086CA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		DBBC323A1ACDFF5C00086CA1 /* Build configuration list for PBXNativeTarget "AlarmClock2Tests" */ = {
 			isa = XCConfigurationList;
@@ -438,7 +426,6 @@
 				DBBC323C1ACDFF5C00086CA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
